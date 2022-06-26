@@ -1,0 +1,162 @@
+.section {
+  padding: 80px 0px;
+}
+.svgField {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+.svgImg {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  width: 301px;
+  height: 62px;
+}
+
+.svgText {
+  position: absolute;
+  right: 50;
+  left: 50;
+  top: 0;
+  bottom: 0;
+  padding-top: 20px;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 38px;
+}
+
+.list {
+  display: flex;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 264px;
+  height: 100%;
+  margin-right: 24px;
+  text-align: center;
+}
+.item:last-child {
+  margin-right: 0px;
+}
+
+.itemChild {
+  padding: 29px 24px;
+}
+
+.btn {
+  border: 1px solid #8e8e8e;
+  outline: 1px solid transparent;
+
+  border-radius: 16px;
+}
+.btn:hover,
+.btn:focus {
+  border: 1px solid #1a1a1a;
+  outline: 1px solid #1a1a1a;
+  border-radius: 16px;
+  background-image: linear-gradient(
+    90deg,
+    hsl(4deg 100% 71%) 0%,
+    hsl(356deg 100% 73%) 9%,
+    hsl(349deg 100% 74%) 19%,
+    hsl(342deg 100% 75%) 32%,
+    hsl(335deg 100% 76%) 47%,
+    hsl(329deg 100% 78%) 63%,
+    hsl(319deg 88% 79%) 79%,
+    hsl(306deg 73% 79%) 92%,
+    hsl(289deg 78% 81%) 99%,
+    hsl(272deg 100% 85%) 100%
+  );
+  box-shadow: 8px 8px 2px 1px #1a1a1a;
+}
+
+@media screen and (max-width: 1023px) {
+  .section {
+    padding: 20px 0px 52px;
+  }
+
+  .list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc((100% / 2) - 17px);
+    height: 72px;
+    border-radius: 16px;
+    border: 1px solid #8e8e8e;
+    margin-right: 0px;
+    margin-bottom: 19px;
+    text-align: center;
+  }
+
+  .item:nth-child(odd) {
+    margin-right: 17px;
+  }
+
+  .item:nth-last-child(-n + 2) {
+    margin-bottom: 0px;
+  }
+  .item:last-child {
+    margin-right: 0px;
+  }
+
+  .itemChild {
+    padding: 29px 24px;
+  }
+
+  .itemChild {
+    padding: 20px 0px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .svgImg {
+    display: none;
+  }
+
+  .arrow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19px;
+  }
+
+  .svgField {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .svgText {
+    position: static;
+    right: 50;
+    left: 50;
+    top: 0;
+    bottom: 0;
+    padding-top: 0px;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,412 @@
+.hero {
+  text-align: center;
+  margin-top: 88.5px;
+  margin-bottom: 36px;
+
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 93px;
+}
+
+.priglaskaGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnPriglaska {
+  max-width: 155px;
+  max-height: 48px;
+  padding: 12px 36px;
+  border-radius: 8px;
+
+  background-color: #1a1a1a;
+  color: #ffffff;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.svgField {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+.svgImg {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  width: 301px;
+  height: 62px;
+}
+
+.svgText {
+  position: absolute;
+  right: 50;
+  left: 50;
+  top: 0;
+  bottom: 0;
+  padding-top: 20px;
+}
+
+.dlLogo svg {
+  width: 100%;
+  max-height: 29px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 66px;
+}
+
+.item {
+  width: calc((100% / 2) - 23px);
+  margin-bottom: 0px;
+  border: 1.5px solid #000000;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.child {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -150px;
+  left: -150px;
+  opacity: 0;
+}
+
+.itemChild {
+  padding: 32px 20px;
+}
+
+.logoGroup {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.labetOfBall {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 58px;
+}
+
+/* Backround ball */
+
+.ball {
+  width: 78px;
+  height: 78px;
+  background-color: #ff7369;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.ballText {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item:nth-child(2) .ball {
+  /* width: 78px;
+  height: 78px; */
+  background-color: #6effa8;
+  /* border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px; */
+}
+
+.item:nth-child(3) .ball {
+  /* width: 78px;
+  height: 78px; */
+  background-color: #71dcff;
+  /* border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px; */
+}
+
+.item:nth-child(4) .ball {
+  /* width: 78px;
+  height: 78px; */
+  background-color: #dcb4ff;
+  /* border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px; */
+}
+
+/* Background color */
+
+.item:nth-child(1):hover .child,
+.item:nth-child(1):focus .child {
+  background-color: #ff7369;
+  width: 1000px;
+  height: 1000px;
+  transition: all 1s ease;
+  opacity: 1;
+  z-index: -1;
+}
+
+.item:nth-child(2):hover .child,
+.item:nth-child(2):focus .child {
+  background-color: #6effa8;
+  width: 1000px;
+  height: 1000px;
+  transition: all 1s ease;
+  opacity: 1;
+  z-index: -1;
+}
+
+.item:nth-child(3):hover .child,
+.item:nth-child(3):focus .child {
+  background-color: #71dcff;
+  width: 1000px;
+  height: 1000px;
+  transition: all 1s ease;
+  opacity: 1;
+  z-index: -1;
+}
+
+.item:nth-child(4):hover .child,
+.item:nth-child(4):focus .child {
+  background-color: #dcb4ff;
+  width: 1000px;
+  height: 1000px;
+  transition: all 1s ease;
+  opacity: 1;
+  z-index: -1;
+}
+
+.item:hover .ball,
+.item:focus .ball {
+  background-color: #1a1a1a;
+  transition: all 1s ease;
+}
+
+.item svg {
+  fill: #1a1a1a;
+}
+
+.item:nth-child(1):hover svg,
+.item:nth-child(1):focus svg {
+  fill: #ff7369;
+  transition: all 1s ease;
+}
+
+.item:nth-child(2):hover svg,
+.item:nth-child(2):focus svg {
+  fill: #6effa8;
+  transition: all 1s ease;
+}
+
+.item:nth-child(3):hover svg,
+.item:nth-child(3):focus svg {
+  fill: #71dcff;
+  transition: all 1s ease;
+}
+
+.item:nth-child(4):hover svg,
+.item:nth-child(4):focus svg {
+  fill: #dcb4ff;
+  transition: all 1s ease;
+}
+
+.label {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+}
+
+.labelAccent {
+  font-weight: 700;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.date {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 38px;
+}
+
+.sayThanks {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 58px;
+
+  margin-bottom: 25px;
+}
+
+.sayThanksLogo {
+  color: #ff7369;
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 26px;
+
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .svgImg {
+    display: none;
+  }
+
+  .list {
+    margin-bottom: 0px;
+  }
+
+  .item {
+    width: 100%;
+    border: 1.5px solid #000000;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .itemChild {
+    padding: 32px 20px;
+  }
+
+  .label {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+  }
+
+  .ball {
+    width: 54px;
+    height: 54px;
+    background-color: #ff7369;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11.25px;
+  }
+
+  .ballText {
+    width: 33px;
+    height: 17px;
+  }
+
+  .dlLogo svg {
+    max-width: 215px;
+    max-height: 20px;
+  }
+
+  .text {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 14px;
+  }
+
+  .date {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+  }
+
+  /* .item:last-child {
+    margin-bottom: 0px;
+  } */
+
+  .sayThanks {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+
+    margin-bottom: 25px;
+  }
+
+  .svgText {
+    position: absolute;
+    right: 50;
+    left: 50;
+    top: 0;
+    bottom: 0;
+    padding-top: 26px;
+  }
+
+  .svgField {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 61px;
+  }
+
+  .arrow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .priglaskaGroup {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .item:nth-child(-n + 2) {
+    margin-bottom: 30px;
+  }
+
+  .svgField {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+  }
+
+  .priglaskaGroup {
+    display: none;
+  }
+
+  .itemChild {
+    padding: 70px;
+  }
+}

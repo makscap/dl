@@ -1,0 +1,167 @@
+.overlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.modal {
+  position: absolute;
+  background-color: #ffffff;
+  max-width: 936px;
+  max-height: 1052px;
+  width: 80%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 0px 20px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 3;
+  padding: 72px 64px;
+  overflow: scroll;
+}
+
+.closeModal {
+  display: none;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.frameOne {
+  position: absolute;
+  width: 240px;
+  height: 265px;
+  top: -17px;
+  left: -22px;
+  z-index: -1;
+}
+
+.item:nth-child(2n) .frameOne {
+  position: absolute;
+  width: 160px;
+  height: 265px;
+  top: -17px;
+  left: -22px;
+  z-index: -1;
+}
+
+.mainGroup {
+  display: flex;
+}
+.listGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.textBox {
+  margin-left: 32px;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.itemText {
+  margin-bottom: 32px;
+}
+
+.itemText:last-child {
+  margin-bottom: 0px;
+}
+
+.closeBtn {
+  position: absolute;
+  width: 18.67px;
+  height: 18.67px;
+  top: 50px;
+  right: 50px;
+}
+
+.closeBtnIcon {
+  width: 18.67px;
+  height: 18.67px;
+}
+
+.personData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+.personTitle {
+  font-size: 40px;
+  line-height: 58px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.personJob {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.personText {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.blurBubble {
+  position: absolute;
+  width: 444px;
+  height: 381px;
+  border-radius: 250px;
+  top: -150px;
+  right: 100px;
+  filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+  background: radial-gradient(circle at 50% 50%, #ff7369, #f8f8f8);
+  z-index: -1;
+  opacity: 70%;
+}
+
+.blurBubble2 {
+  position: absolute;
+  width: 444px;
+  height: 381px;
+  border-radius: 250px;
+  bottom: -350px;
+  right: 600px;
+  filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+  background: radial-gradient(circle at 50% 50%, #ff7369, #f8f8f8);
+  z-index: -1;
+  opacity: 60%;
+}

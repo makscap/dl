@@ -1,0 +1,21 @@
+.toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 17px 0 19px;
+}
+
+.toggleField {
+  width: 56px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (min-width: 960px) {
+  .avatarAbdButton {
+    display: none;
+  }
+}

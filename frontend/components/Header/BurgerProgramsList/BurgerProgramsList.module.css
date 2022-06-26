@@ -1,0 +1,106 @@
+.modalField {
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+  /* top: 70px; */
+  top: 0px;
+  left: 0;
+  z-index: 10;
+  background: #f8f8f8;
+}
+
+.modalList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 800;
+}
+
+/* .modalList li:not(:last-child) {
+  border-bottom: 1px solid #e2e3e5;
+} */
+
+.listItem {
+  padding: 8px 0 8px 0;
+}
+
+.link {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 300;
+}
+
+/* .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  color: #000000;
+}
+
+.link:hover {
+  cursor: pointer;
+} */
+
+.iconGroup {
+  display: flex;
+  margin-top: 13px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px 0px;
+  border-radius: 8px;
+  background-color: #000000;
+  color: white;
+}
+
+.subList {
+  padding: 19px 0px 0px 0px;
+}
+
+.subItem {
+  padding: 16px 0px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.subLabel {
+  font-weight: 800;
+  line-height: 96px;
+}
+
+.toggleField {
+  width: 56px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 135.5px;
+  border-bottom: 1px solid #1a1a1a;
+  margin-bottom: 38.5px;
+}
+
+.nameGroup {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 800;
+  margin-bottom: 9px;
+}
+
+@media (min-width: 768px) {
+  /* .modalField {
+    display: none;
+  } */
+}

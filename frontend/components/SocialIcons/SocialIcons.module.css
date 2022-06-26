@@ -1,0 +1,16 @@
+.socialList {
+  display: flex;
+  /* margin-bottom: 99px; */
+}
+
+.item {
+  width: 45px;
+  height: 45px;
+  background-color: #e7e7e7;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.item:last-child {
+  margin-right: 0px;
+}

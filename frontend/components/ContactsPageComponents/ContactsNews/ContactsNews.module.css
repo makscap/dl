@@ -1,0 +1,147 @@
+.section {
+  background-color: #f8f8f8;
+  padding: 58px 0px;
+}
+
+.boxList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.blurBubble {
+  position: absolute;
+  width: 444px;
+  height: 381px;
+  border-radius: 250px;
+  top: 0;
+  left: -100px;
+  filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+  background: radial-gradient(circle at 50% 50%, #ff7369, #f8f8f8);
+  z-index: -1;
+}
+.list {
+  margin-bottom: 63px;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.item:last-child {
+  margin-bottom: 0px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 58px;
+  color: #000000;
+  margin-bottom: 93px;
+}
+
+.site {
+  width: 170px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: left;
+  margin-right: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+
+  width: 192px;
+  height: 52px;
+  border: 1px solid #1a1a1a;
+  color: #1a1a1a;
+  border-radius: 8px;
+}
+
+.linkAndIcon {
+  display: flex;
+}
+
+@media screen and (max-width: 960px) {
+  .section {
+    background-color: #f8f8f8;
+    padding: 33px 0px 28px;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13px;
+  }
+
+  .title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 21px;
+  }
+
+  .site {
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    margin-bottom: 9px;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    margin-right: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .linkAndIcon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .list {
+    margin-bottom: 40px;
+  }
+
+  .btn {
+    width: 188px;
+    height: 48px;
+    border: 1px solid #1a1a1a;
+    color: #1a1a1a;
+    border-radius: 8px;
+  }
+}

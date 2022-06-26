@@ -1,0 +1,32 @@
+.section {
+  /* padding-top: 57px; */
+  padding-bottom: 80px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 58px;
+  margin-bottom: 47px;
+}
+
+.sectionSecond {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 58px;
+  margin-bottom: 47px;
+  background-color: aqua;
+}
+
+@media screen and (max-width: 959px) {
+  .section {
+    padding-bottom: 89px;
+  }
+
+  .title {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 55px;
+  }
+}

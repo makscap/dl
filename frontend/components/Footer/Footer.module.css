@@ -1,0 +1,200 @@
+.footer {
+  background-color: #121212;
+  color: #ffffff;
+  padding-top: 128px;
+  padding-bottom: 122px;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.figureArrow {
+  position: absolute;
+  top: 0px;
+  left: -165px;
+}
+
+.logo {
+  display: flex;
+  margin-bottom: 71px;
+}
+
+.contacts {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 43.58px;
+
+  margin-bottom: 45px;
+}
+
+.contantItem {
+  margin-bottom: 7px;
+}
+
+.contantItem:last-child {
+  margin-bottom: 0px;
+}
+
+.adressGroup {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.name {
+  font-weight: 700;
+  color: #ff7369;
+}
+
+.ico {
+  font-weight: 500;
+}
+
+.infoGroup {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.infoGroup:first-child {
+  margin-right: 72px;
+}
+
+.infoLabel {
+  margin-bottom: 32px;
+  color: #ff7369;
+}
+
+.infoList {
+  font-weight: 500;
+}
+
+.infoItem {
+  margin-bottom: 18px;
+}
+.infoItem:last-child {
+  margin-bottom: 0px;
+}
+
+.socialGroup {
+  display: flex;
+  align-self: flex-end;
+}
+
+.socialList {
+  display: flex;
+}
+
+.linksGroup {
+  display: flex;
+}
+
+@media screen and (min-width: 960px) {
+  .adressGroupMobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .footer {
+    background-color: #121212;
+    color: #ffffff;
+    padding-top: 57px;
+    padding-bottom: 40px;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .adressGroup {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+  }
+
+  .adressGroup {
+    display: none;
+  }
+
+  .logo {
+    margin-bottom: 22px;
+    width: 50px;
+    height: auto;
+  }
+
+  .contacts {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+
+    margin-bottom: 38px;
+  }
+
+  .contantItem {
+    margin-bottom: 3px;
+  }
+
+  .infoGroup:first-child {
+    margin-right: 30px;
+  }
+
+  .adressGroup {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+
+  .infoGroup {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+
+  .infoLabel {
+    margin-bottom: 20px;
+    color: #ff7369;
+  }
+
+  .infoItem {
+    margin-bottom: 20px;
+  }
+  .infoItem:last-child {
+    margin-bottom: 0px;
+  }
+
+  .linksGroup {
+    display: flex;
+    margin-bottom: 56px;
+  }
+
+  .adressGroup {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+  .adressItem {
+    margin-bottom: 4px;
+  }
+
+  .adressItem:last-child {
+    margin-bottom: 0px;
+  }
+
+  .logo svg {
+    max-width: 257px;
+    height: 23px;
+  }
+
+  .socialGroup {
+    display: flex;
+    align-self: center;
+    margin-top: 32px;
+  }
+}

@@ -1,0 +1,123 @@
+.section {
+  padding: 92px 0px 80px 0px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 58px;
+  color: #000000;
+  margin-bottom: 51px;
+}
+
+.box {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: relative;
+  margin-bottom: 71px;
+}
+
+.textBox {
+  margin-right: 84px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: underline;
+  margin-bottom: 24px;
+}
+
+.item:last-child {
+  margin-bottom: 0px;
+}
+
+.blurBubble {
+  position: absolute;
+  width: 444px;
+  height: 381px;
+  border-radius: 250px;
+  bottom: -200px;
+  right: -190px;
+  filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+  background: radial-gradient(circle at 50% 50%, #ff7369, #f8f8f8);
+  z-index: -1;
+}
+
+.titleGallery {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 58px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+.test {
+  width: 300px;
+  height: 200px;
+  background-color: #000000;
+}
+
+@media screen and (max-width: 960px) {
+  .title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 37px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+    margin-bottom: 36px;
+  }
+
+  .svgImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 39px;
+  }
+
+  .svgImage svg {
+    width: 272px;
+    height: 209px;
+  }
+
+  .textBox {
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: underline;
+    margin-bottom: 12px;
+  }
+
+  .link:last-child {
+    margin-bottom: 0px;
+  }
+
+  .titleGallery {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 6px;
+  }
+}

@@ -1,0 +1,159 @@
+.section {
+  padding-top: 52.5px;
+  padding-bottom: 73px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 84px;
+  margin: 0px;
+  margin-bottom: 37px;
+}
+
+.contactsGroup {
+  display: flex;
+  margin-bottom: 41px;
+}
+
+.contactsList {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.contactsItem {
+}
+.contactsLabel {
+  font-weight: 700;
+}
+.contactsLine {
+  margin-left: 51px;
+  margin-right: 51px;
+  border: 1px solid black;
+}
+
+.mediaTitle {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 84px;
+  margin: 0px;
+  margin-bottom: 21px;
+}
+
+.mediaLabel {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 21px;
+  color: #000000;
+}
+
+.mediaLogo {
+  margin-bottom: 15px;
+}
+
+.mediaText {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 31px;
+  color: #000000;
+}
+
+.mediaBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+
+  width: 192px;
+  height: 52px;
+  border: 1px solid #1a1a1a;
+  color: #1a1a1a;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 960px) {
+  .section {
+    padding-top: 0px;
+    padding-bottom: 44px;
+  }
+
+  .contactsGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28px;
+  }
+
+  .contactsLine {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 23px;
+    margin-bottom: 22px;
+    border: 0px;
+    border-bottom: 1px solid black;
+  }
+
+  .title {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+    margin: 0px;
+    margin-bottom: 13.9px;
+  }
+
+  /* .contactsGroup {
+  display: flex;
+  margin-bottom: 41px;
+} */
+
+  .contactsList {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .mediaTitle {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+    margin: 0px;
+    margin-bottom: 0px;
+  }
+
+  .mediaLabel {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    color: #000000;
+  }
+
+  .mediaLogo {
+    margin-bottom: 11px;
+  }
+
+  .mediaText {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+
+  .mediaBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 156px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid #1a1a1a;
+  }
+}

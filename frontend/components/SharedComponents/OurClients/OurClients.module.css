@@ -1,0 +1,30 @@
+.slider {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 78px;
+  margin-bottom: 78px;
+}
+.slider ul {
+  display: flex;
+  padding: 0;
+  animation: cambio 80s infinite linear;
+}
+.slider li {
+  list-style: none;
+  margin-right: 55px;
+}
+
+@keyframes cambio {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: -100%;
+  }
+}
+
+.change {
+  height: 100%;
+  background-color: red;
+}
